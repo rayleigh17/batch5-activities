@@ -5,6 +5,8 @@ You can use the [editor on GitHub](https://github.com/rayleigh17/batch5-activiti
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
+<h2><a href="https://rayleigh17.github.io/batch5-activities/" target="_blank">Main Page</a></h2>
+
 Activities
 - [BestPractice](Assignment1/index.html)
 - [TributePage](TributePage/index.html)
