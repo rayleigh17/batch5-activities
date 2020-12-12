@@ -1,0 +1,35 @@
+header {
+    background-color: #a5aaacd7;
+    min-height: 20vh;
+    padding: 15px;
+}
+.intro2 {
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+}
+.intro3 {
+    text-align: right;
+}
+.discuss {
+    display: grid;
+    text-align: left;
+    max-width: 1000px;
+    margin-left: 10px; 
+    margin-right: auto;
+    color: rgba(116, 5, 5, 0.596);
+}
+.contribute {
+    display: grid;
+    text-align: left;
+    max-width: 1000px;
+    margin-left: 920px;
+    margin-right: auto; 
+    color: rgba(116, 5, 5, 0.596);
+}
+body {
+    background-image: url('images/tech3.jpg');
+    font-family: 'Domine', serif;
+    
+}

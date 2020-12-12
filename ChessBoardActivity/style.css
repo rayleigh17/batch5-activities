@@ -1,0 +1,56 @@
+body {
+    background-image: url("image/board.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: papyrus;
+    font-size: 1.8em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(161, 190, 28);
+    border-bottom: 2px solid rgb(205, 228, 0);
+    border-right: 2px solid rgb(205, 228, 0);
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 4px wheat;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-1 {
+    width: 5vw;
+    height: 5vw;
+    background-color:wheat;
+    text-align: center;
+    font-size: 4vw;
+    border: black 1px solid;
+}
+
+.box-2 {
+    width: 5vw;
+    height: 5vw;
+    background-color: #AA8239;
+    text-align: center;
+    font-size: 4vw;
+    border: black 1px solid;
+}
+
+.box-1:hover {
+    transform: scale(1.1);
+    cursor: grab;
+}
+.box-2:hover {
+    transform: scale(1.1);
+    cursor: grab;
+}

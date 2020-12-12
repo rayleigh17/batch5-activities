@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#main {
+    background-image: url("image/bg-2.jpg");
+    background-size: cover;
+    font-family: Calibri;
+}
+
+.list {
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: rgba(192, 204, 23, 0.5);
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+li, a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(162, 197, 64);
+}
+
+#title {
+    color: rgb(162, 197, 64);
+    margin-top: 90px;
+    text-align: center;
+    font-size: 3em;
+}
+
+#img-div {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 1.8em;
+    border-bottom: 3px solid rgb(205, 228, 0);
+    border-right: 3px solid rgb(205, 228, 0);
+    box-shadow: 5px 5px 5px wheat;
+    background-color: rgb(241, 218, 176, 0.6);
+    padding: 15px;
+}
+
+#image {
+    margin-right: 920px;
+    border: ivory 2px solid;
+    width: 500px;
+    height: 500px;
+}
+
+img:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+}
+
+#img-caption {
+    position: absolute;
+    margin-left: 530px;
+    padding: 20px;
+}
+
+#technique {
+    text-align: left;
+    color: black;
+    margin-top: 42em;
+    margin-left: 300px;
+    width: 75%;
+    border-bottom: 3px solid rgb(205, 228, 0);
+    border-right: 3px solid rgb(205, 228, 0);
+    box-shadow: 5px 5px 5px wheat;
+    background-color: rgb(241, 218, 176, 0.6);
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+dt {
+    color: rgb(4, 20, 88);
+}
+
+dd {
+    margin-left: 30px;
+}
+
+dd, dt {
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+#award {
+    text-align: left;
+    color: black;
+    margin-top: 5em;
+    margin-left: 300px;
+    width: 75%;
+    border-bottom: 3px solid rgb(205, 228, 0);
+    border-right: 3px solid rgb(205, 228, 0);
+    box-shadow: 5px 5px 5px wheat;
+    background-color: rgb(241, 218, 176, 0.6);
+    padding: 20px;
+}
+
+.awardlist {
+    line-height: 1.5;
+    margin-left: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+ 
+  
