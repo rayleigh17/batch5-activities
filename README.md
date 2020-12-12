@@ -7,3 +7,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Activities
 - [BestPractice](Assignment1/index.html)
+- [TributePage](TributePage/index.html)
+- [ChessBoardActivity](ChessBoardActivity/index.html)
+- [GridChessBoardActivity](GridChessBoardActivity/index.html)
