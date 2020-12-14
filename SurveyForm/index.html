@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <div class="intro">
+            <h1 id="title">Avion Survey Form</h1>
+            <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+        </div>
+        <form id="survey-form" action="" method="GET">
+            <div class="form-1">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" id="name" class="form-1-1" name="name" placeholder="Enter your name" required autofocus>
+            </div>
+            <div class="form-1">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" class="form-1-1" name="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-1">
+                <label id="number-label" for="age">Age (optional)</label>
+                <input type="number" id="number" class="form-1-1" name="age" min="18" max="100" placeholder="Age">
+            </div>       
+            <div class="form-1">
+                <label for="role">Which options best describe your current role?</label>
+                <select class="form-1-1" name="role" id="dropdown">
+                    <option value="" disabled selected>Select current role</option>
+                    <option value="administrator">Administrator</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="student">Student</option>
+                </select><br>
+            </div>
+            <div class="form-1">
+                <label for="recommend">Would you recommend Avion School to a friend?</label><br>
+                <input type="radio" name="recommend" value="Definitely">Definitely <br>
+                <input type="radio" name="recommend" value="Maybe">Maybe <br>
+                <input type="radio" name="recommend" value="Not sure">Not sure <br>
+            </div>
+            <div class="form-1">
+                <label for="feature">What is your favorite feature of Avion School</label><br>
+                <select class="form-1-1" name="feature" id="dropdown-2">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="front-end">Front-end Projects</option>
+                    <option value="back-end">Back-end Projects</option>
+                    <option value="everything">Everything</option>
+                </select><br>
+            </div>
+            <div class="form-1">
+                <label for="improve">What would you like to see improved? (check all that apply)</label> <br>
+                <input type="checkbox" name="improve" value="front-end">Front-end Projects <br>
+                <input type="checkbox" name="improve" value="back-end">Back-end Projects <br>
+                <input type="checkbox" name="improve" value="data visualization">Data Visualization <br>
+                <input type="checkbox" name="improve" value="challenges">Challenges <br>
+                <input type="checkbox" name="improve" value="open source community">Open Source Community <br>
+                <input type="checkbox" name="improve" value="gitter help rooms">Gitter help rooms <br>
+                <input type="checkbox" name="improve" value="videos">Videos
+            </div>
+            <div class="form-1">
+                <label for="comment">Any comments or suggestions?</label>
+                <textarea class="form-1-1" name="comment" id="textarea" cols="70" rows="5" placeholder="Enter your comment here..."></textarea> <br>
+            </div>
+            <div class="form-1">
+                <button class="form-1-1" type="submit">Submit</button>
+            </div>       
+        </form>
+    </main>
+    
+</body>
+</html>
