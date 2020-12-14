@@ -8,8 +8,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <h2><a href="https://rayleigh17.github.io/batch5-activities/" target="_blank">Main Page</a></h2>
 
 Activities
-- [BestPractice](Assignment1/index.html)
-- [TributePage](TributePage/index.html)
-- [ChessBoardActivity](ChessBoardActivity/index.html)
-- [GridChessBoardActivity](GridChessBoardActivity/index.html)
+- <a href="https://rayleigh17.github.io/batch5-activities/Assignment1/index.html" target="_blank">BestPractice</a>
+- <a href="https://rayleigh17.github.io/batch5-activities/TributePage/index.html" target="_blank">TributePage</a>
+- <a href="https://rayleigh17.github.io/batch5-activities/ChessBoardActivity/index.html" target="_blank">ChessBoardActivity</a>
+- <a href="https://rayleigh17.github.io/batch5-activities/GridChessBoardActivity/index.html" target="_blank">GridChessBoardActivity</a>
 - <a href="https://rayleigh17.github.io/batch5-activities/SurveyForm/index.html">SurveyForm</a>
