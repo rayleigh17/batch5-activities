@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="bar-logo">
+                <img id="header-img" src="Images/logo.png" alt="nvidia">
+            </div>
+            <div class="bar-list">
+                <ul>
+                    <li class="nav-link"><a href="#main ">Home</a></li>
+                    <li class="nav-link"><a href="#video">Watch</a></li>
+                    <li class="nav-link"><a href="https://www.nvidia.com/en-ph/geforce/graphics-cards/30-series/rtx-3090/" target="_blank">Shop Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="main">
+        <div class="overlay">
+            <div class="text-container">
+                <h1 class=text-intro>GEFORCE RTX 3090</h1>
+                <h4 class="text-intro">THE BFGPU</h4>
+                <h6 class="text-intro">The GeForce RTX™ 3090 is a big ferocious GPU (BFGPU) with TITAN class performance. It’s powered by Ampere—NVIDIA’s 2nd gen RTX architecture—doubling down on ray tracing and AI performance with enhanced Ray Tracing (RT) Cores, Tensor Cores, and new streaming multiprocessors. Plus, it features a staggering 24 GB of G6X memory, all to deliver the ultimate gaming experience.</h6>
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <div class="vid-container">
+            <div class="text-top">
+                <h1>Learn more about our product here...</h1>
+            </div>
+            <div class="main-vid">     
+                <iframe width="560" height="360"
+                 src="https://www.youtube.com/embed/hBrsCjRp2ps" frameborder="0" allowfullscreen>
+                 </iframe>
+            </div>
+        </div>
+    </section>
+
+    <div class="form-section">
+        <form id="form" action="../LandingPage/form.html">
+            <h1>Keep up-to-date with us!</h1>
+            <div class="email-btn">
+                <input id="email" type="email" name="email"  placeholder="Enter your email here" required>
+                <button id="sub-btn" type="submit" class="btn" value="Submit">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

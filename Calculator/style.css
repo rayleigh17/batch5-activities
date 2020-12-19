@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    background-image: url(image/bg1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.calcu {
+    background-color: rgba(204, 198, 198);
+    width: 400px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 rgb(155, 148, 148), 0 10px 20px rgba(255, 249, 249, 0.75)
+} 
+
+.result {
+    background-color: rgb(224, 228, 202, .7);
+    color: #4f4f52;
+    width: 90%;
+    margin: 8px 0 20px 10px;
+    text-align: right; 
+    height: 90px;
+    line-height: 90px;
+    font-size: 45px;
+    padding-right: 10px;
+    overflow: hidden;
+    font-family: 'Share', cursive;
+    border-radius: 5px;
+    box-shadow: inset 0 0 8px rgba(000, 000, 000, .7), inset 0 2px 0 rgb(218, 214, 214)
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    background-color: rgba(201, 201, 201, 0.6);
+    padding: 12px;
+    width: 15%;
+    height: 30px;
+    float: left;
+    color: white;
+    margin: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 rgb(158, 151, 151);
+    font-family: 'Share', cursive;
+    border: 1px white solid;
+}
+
+ul li:active {
+    position: relative;
+    top: 5px;
+    box-shadow: inset 0 1px 2px rgba(000, 000, 000, .4);
+}
+
+ul li:last-child {
+    width: 160px;
+}
