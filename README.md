@@ -12,5 +12,7 @@ Activities
 - <a href="https://rayleigh17.github.io/batch5-activities/TributePage/index.html" target="_blank">TributePage</a>
 - <a href="https://rayleigh17.github.io/batch5-activities/ChessBoardActivity/index.html" target="_blank">ChessBoardActivity</a>
 - <a href="https://rayleigh17.github.io/batch5-activities/GridChessBoardActivity/index.html" target="_blank">GridChessBoardActivity</a>
+- <a href="https://rayleigh17.github.io/batch5-activities/LandingPage/index.html">LandingPage</a>
 - <a href="https://rayleigh17.github.io/batch5-activities/SurveyForm/index.html">SurveyForm</a>
+- <a href="https://rayleigh17.github.io/batch5-activities/Calculator/index.html">Calculator</a>
 - <a href="https://jsfiddle.net/xbcq9oLf/" target="_blank">BmiActivity</a>
