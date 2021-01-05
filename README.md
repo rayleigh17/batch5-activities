@@ -16,3 +16,4 @@ Activities
 - <a href="https://rayleigh17.github.io/batch5-activities/SurveyForm/index.html">SurveyForm</a>
 - <a href="https://rayleigh17.github.io/batch5-activities/Calculator/index.html">Calculator</a>
 - <a href="https://jsfiddle.net/xbcq9oLf/" target="_blank">BmiActivity</a>
+- <a href="https://jsfiddle.net/c0uhL7te/137/" target="_blank">Playing Cards</a>
